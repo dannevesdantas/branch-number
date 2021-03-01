@@ -1,5 +1,6 @@
 name: 'branch-number'
-description: 'Export branch name's number as environment variable.'
+description: >
+  Export branch name's number as environment variable.
 author: 'dannevesdantas'
 branding:
   color: git-branch
