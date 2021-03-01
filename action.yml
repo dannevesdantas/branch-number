@@ -1,17 +1,15 @@
 name: 'branch-number'
-description: >
-  Export branch name's number as environment variable.
+description: 'Export branch name number as environment variable.'
 author: 'dannevesdantas'
 branding:
   color: git-branch
   icon: blue
 inputs:
   branch-name:
-    description: 'Branch name without the 'refs/heads/' part. For example 'release/3.2.0'
+    description: 'Branch name without the refs/heads/ part. For example release/3.2.0'
     required: true
   delimiter:
-    description: >
-      'Delimiter that separate the branch name part from the branch name's number part. For example '/' or '-'. Default value is '/'
+    description: 'Delimiter that separate the branch name part from the branch name number part. For example / or - Default value is /'
     required: false
     default: '/'
 
