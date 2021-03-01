@@ -5,7 +5,7 @@ GitHub Action for exporting current branch name's number segment as an environme
 
 ```yml
 - name: Get branch name
-  # Use nelonoel/branch-name to produce a $BRANCH_NAME environment variable containing the branch name without the 'refs/heads/' part
+  # Produce a $BRANCH_NAME environment variable containing only the branch name without the 'refs/heads/' part
   uses: nelonoel/branch-name@v1.0.1
 
 - name: Get branch name's number
