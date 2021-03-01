@@ -14,7 +14,7 @@ GitHub Action for exporting current branch name's number segment as an environme
     branch-name: '${{ env.BRANCH_NAME }}'
 ```
 
-Or, specifying a hard-coded branch name
+Or, specify your own branch name
 
 ```yml
 - name: Get branch name's number
