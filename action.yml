@@ -10,7 +10,8 @@ inputs:
     description: 'Branch name without the 'refs/heads/' part. For example 'release/3.2.0'
     required: true
   delimiter:
-    description: 'Delimiter that separate the branch name part from the branch name's number part. For example '/' or '-'. Default value is '/'
+    description: >
+      'Delimiter that separate the branch name part from the branch name's number part. For example '/' or '-'. Default value is '/'
     required: false
     default: '/'
 
