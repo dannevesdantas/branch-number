@@ -33,7 +33,8 @@ You can also optionally specify a delimiter to be used to separate the branch na
     delimiter: '-'
 ```
 
-The current branch name's number segment will be available at `${{ env.BRANCH_NUMBER }}` environment variable.
+The current branch name's number segment will be available at `${{ env.BRANCH_NUMBER }}` environment variable.\
+For the examples above, the resulting value in `${{ env.BRANCH_NUMBER }}` env variable will be `3.2.0`
 
 ## Requirements
 This GitHub Action is compatible with Windows based runners only.
