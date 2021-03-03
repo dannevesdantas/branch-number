@@ -9,7 +9,7 @@ GitHub Action for exporting current branch name's number segment as an environme
   uses: nelonoel/branch-name@v1.0.1
 
 - name: Get branch name's number
-  uses: dannevesdantas/branch-number@v0.1.0
+  uses: dannevesdantas/branch-number@v0.1.2
   with:
     branch-name: '${{ env.BRANCH_NAME }}'
 ```
